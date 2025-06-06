@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'OCR';
+    src: url('OCRAStd.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: OCR;
+  font-size: 4.5rem;
+  margin-top: 1.5rem;
+}
+
+h2 {
+    display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: OCR;
+  
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  footer p {
+    background-color: white;
+    padding: 5px;
+  }
+
+  body {
+    font-family: OCR;
+  }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+  .looks {   
+width: 25%;
+margin: 10px;
+
+  }
+
+  .looks img {
+    width: 100%;
+  
+  }
+
+
+  .sidebar, .mini-sidebar, .wide-sidebar, .Fenster {
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #387FDB;
+    box-shadow: 2px 2px #2A5FA3;
+    }
+  
+    .sidebar, .sidebar-box {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+      }
+
+    .Fenster {
+      margin-left: 400px;
+    margin-top: 25px;
+    width: 600px;
+    margin-bottom: 25px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid #387FDB;
+    box-shadow: 2px 2px #2A5FA3;
+    
+    } 
+    
+    .FensterTitel {
+    background: #387FDB;
+    color: white;
+    font-weight: bold;
+   padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    position: sticky;
+    
+    }
+    
+    .inner {
+    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+ 
+    }
+    
+    .inner p {
+      font-size: 15px;
+   
+
+    }
+    
+    .right {
+    float: right;
+    margin-right: 5px;
+    font-family: "Arial", sans-serif;
+    line-height: 12px;
+    }
+    
+   
+  
+    .sidebar-group {
+      position: fixed;
+      top: 0;
+      margin-top: 40px;
+      }
+  
+      .sidebar, .sidebar-box {
+        display: inline-block;
+        vertical-align: top;
+        width: 500px;
+        }
+        
+      /*Container for vertical stacks of multiple mini-sidebars*/
+      .sidebar-box {
+        margin-left: 10px;
+        }
+        
+      .sidebar {
+        width: 500px;
+        margin-left: 25px;
+        margin-top: 20px;
+        }
+        
+      .mini-sidebar {
+        margin-bottom: 25px;
+        }
+        
+      .wide-sidebar {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 500px;
+        height: 75vh;
+overflow: scroll;
+     
+        
+        }
+
+
+ .main-content {
+  max-width: 75%;
+  background-color: aqua;
+  margin-left: 25%;
+  height: 1000px;
+ }
+ .main-content img {
+   width: 100%;
+ }
